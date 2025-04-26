@@ -1,0 +1,115 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-size: 15pt;
+}
+
+.img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-family: Georgia;
+    color: black;
+}
+
+.lang {
+    font-size: 13px;
+    color: #868895;
+    text-align: center;
+}
+
+#login {
+    height: 25%;
+    display: grid;
+    place-content: center;
+}
+
+input {
+    margin-bottom: 30px;
+    padding: 5px;
+    width: 250px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    outline: none;
+    border-bottom: 1px solid;
+    border-bottom-color: #86868d;
+}
+
+input:active {
+    border-bottom-color: blue;
+}
+
+button {
+    width: 250px;
+    padding: 9px;
+    position: relative;
+    top: -40px;
+    background-color: #1877f2;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.forgot {
+    color: #1877f2;
+    position: relative;
+    top: -40px;
+    font-size: 17px;
+}
+
+hr{
+    border: solid #89898c 1px;
+    width: 250px;
+}
+
+p {
+    background-color: #ffff;
+    border-radius: 100%;
+    width: 20px;
+    position: relative;
+    top: -6px;
+    font-size: 10px;
+    
+}
+
+.creat {
+    width: 250px;
+    padding: 9px;
+    color: #fff;
+    margin-top: 80px;
+    background-color: #31a24c;
+}
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+    body {
+        font-size: 12pt;
+    }
+
+    .img {
+        width: 80%;
+    }
+
+    #login {
+        height: auto;
+        padding: 20px;
+    }
+
+    input, button {
+        width: 90%;
+    }
+
+    .forgot, .creat {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    hr {
+        width: 90%;
+    }
+}
