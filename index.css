@@ -15,15 +15,7 @@ body {
     justify-content: center;
 }
 
-.img {
-    width: 90px;
-    margin-bottom: 1.5rem;
-    filter: drop-shadow(0 8px 32px #7F00FF44);
-    border-radius: 18px;
-    background: #fff;
-    padding: 12px 18px;
-    box-shadow: 0 12px 28px #0003;
-}
+
 
 a {
     text-decoration: none;
